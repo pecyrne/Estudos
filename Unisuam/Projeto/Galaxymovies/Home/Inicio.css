@@ -1,0 +1,45 @@
+body {
+    background-image: url("space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: 2144px 1081px;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    text-align: center;
+}
+
+.titulos {
+    font-size: 450%;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.29);
+    color: #ffffff;
+}
+
+#titulo01 {
+    margin-top: 20rem;
+}
+
+#titulo02 {
+    margin-top: -6rem;
+}
+
+.botoes {
+    display: inline-flex;
+    gap: 120px;
+}
+
+.botoes button {
+    font-style: italic;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.44);
+    border: 6px solid black;
+    padding: 15px 50px;
+    background-color: #a61691;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 200%;
+}
