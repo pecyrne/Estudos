@@ -11,7 +11,9 @@ body {
 }
 
 .cor1 {
-    background-color: purple;
+    background-image: linear-gradient(to bottom, purple, rgba(128, 0, 128, 0.3));
+    max-height: 500px;
+    min-height: 60px;
 }
 
 #nav_titulo {
@@ -28,12 +30,45 @@ body {
 .nav-link:hover {
     color: white;
 }
-.btn-outline-danger {
-    border-color: rgba(255, 255, 255, 0);
-    padding: .300rem .40rem;
+
+.Botao_pesquisa {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.Botao_pesquisa img{
+    width: 33px;
+    height: 33px
+}
+.Botao_pesquisa:focus {
+    outline: none;
 }
 
-.btn-outline-danger:hover {
-    border-color: rgba(255, 255, 255, 0);
-    background-color: rgba(255, 255, 255, 0);
+.Input_pesquisa {
+    background-color: #650065;
+    color: white;
+    width: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: width 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Input_pesquisa:focus {
+    outline: none;
+}
+
+.Input_pesquisa::placeholder {
+    color: #ffffff;
+}
+
+.Input_container.active .Input_pesquisa {
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    opacity: 1;
+    visibility: visible;
+    background-color: #650065;
 }
