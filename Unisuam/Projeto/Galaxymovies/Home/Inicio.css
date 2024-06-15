@@ -1,3 +1,11 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-image: url("space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy.jpg");
     background-repeat: no-repeat;
