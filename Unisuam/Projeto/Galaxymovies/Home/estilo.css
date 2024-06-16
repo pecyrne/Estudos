@@ -1,0 +1,53 @@
+html, body{
+    width: 100%;
+    height: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("/Imagens/galáxia5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    background-attachment: fixed;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    text-align: center;
+    
+}
+
+.titulos {
+    font-size: 500%;
+    letter-spacing: 0,5px;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(253, 0, 232, 0.541);
+    color: #000000;
+}
+#titulo01 {
+    margin-top: 10rem;
+}
+
+
+.botoes {
+    display: inline-flex;
+    gap: 120px;
+}
+
+.botoes button {
+    font-style: italic;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.44);
+    border: 6px solid black;
+    padding: 15px 50px;
+    background-color: #a61691;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 200%;
+}
