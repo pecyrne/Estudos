@@ -1,0 +1,99 @@
+.cor1 {
+    background-image: linear-gradient(to bottom, purple, rgba(128, 0, 128, 0.3));
+    max-height: 500px;
+    min-height: 60px;
+}
+
+.cor2 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    max-height: 500px;
+    min-height: 200px;
+}
+
+#nav_titulo {
+    letter-spacing: 0,5px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(253, 0, 232, 0.541);
+    color: #ffffff;
+}
+
+#nav_link1 {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: rgba(231, 231, 231, 0.76);
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.Botao_pesquisa {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.Botao_pesquisa img {
+    width: 33px;
+    height: 33px
+}
+.Botao_pesquisa:focus {
+    outline: none;
+}
+
+.Input_pesquisa {
+    background-color: #650065;
+    color: white;
+    width: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: width 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Input_pesquisa:focus {
+    outline: none;
+}
+
+.Input_pesquisa::placeholder {
+    color: #ffffff;
+}
+
+.Input_container.active .Input_pesquisa {
+    border: 2px solid white;
+    width: 200px;
+    height: 40px;
+    opacity: 1;
+    visibility: visible;
+    background-color: transparent;
+}
+
+#copy {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#easter {
+    color: black;
+}
+
+#foot ul{
+    list-style-type: none;
+}
+
+#foot {
+    margin-top: 60px;
+}
+
+#foot li a {
+    color: white;
+}
+
+#foot li a:hover {
+    color: white;
+}

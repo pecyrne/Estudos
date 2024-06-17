@@ -19,4 +19,5 @@ document.addEventListener('DOMContentLoaded', function () { /* Isso aqui é uma 
             Input_pesquisa.blur();
         }
     });
+
 });
