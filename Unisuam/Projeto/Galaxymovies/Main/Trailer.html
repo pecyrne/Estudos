@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style 2.css">
-    <script src="NavBarJS.js"></script>
-    <script src=""></script>
+    <link rel="stylesheet" href="NavCSS.css">
+    <link rel="stylesheet" href="VideoPlayer.css">
+
+    <script src="Trailer.js"></script>
     <title>Trailer</title>
 </head>
 <body>
@@ -42,5 +44,15 @@
         </div>
     </div>
 </nav>
+<div id="video_container">
+    <video id="video_player" controls>
+        <source src="/Filmes/A%20Maldição%20de%20Chucky%20Trailer%20DUBLADO.mp4" type="video/mp4" data-quality="480p">
+        Your browser does not support the video tag.
+    </video>
+    <div id="qualitySelector">
+        <button onclick="changeQuality('/Filmes/A%20Maldição%20de%20Chucky%20Trailer%20DUBLADO.mp4')">480p</button>
+        <button onclick="changeQuality('/Filmes/A%20Maldição%20de%20Chucky%20Trailer%20DUBLADO(1).mp4')">140p</button>
+    </div>
+</div>
 </body>
 </html>

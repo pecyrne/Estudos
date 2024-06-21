@@ -12,7 +12,7 @@
 }
 
 #nav_titulo {
-    letter-spacing: 0,5px;
+    letter-spacing: 0.5px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgba(253, 0, 232, 0.541);
     color: #ffffff;
