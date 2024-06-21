@@ -1,0 +1,24 @@
+body{ 
+background-color: silver;
+}
+*{
+/*Formatando todos os elementos
+}
+h1{ 
+color:purple; 
+
+}
+fieldset { 
+}
+margin:0 auto; 
+border-radius: 15px; 
+background-color: white; 
+box-shadow: 2px 2px 2px gray; 
+input, select, textarea{ 
+}
+border-radius: 4px; 
+padding: 5px; 
+margin: 5px;
+label{
+}
+font-weight:bold;

@@ -1,0 +1,558 @@
+SEMANA 5
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Reconhecer as declarações de documentos HTML.
+Identificar e aplicar as tags do HTML.
+Criar páginas web com HTML.
+
+1- Doctype é uma declaração utilizada para que os navegadores saibam em qual versão de html a página utiliza 
+
+2- 
+HTML 4.01 Strict: Projetado para garantir a compatibilidade com versões anteriores do HTML.
+HTML 4.01 Transitional: Projetado para facilitar a transição de documentos HTML legados para versões mais recentes
+HTML 4.01 Frameset: Específico para documentos HTML que usam frames (conjuntos de quadros) para dividir a janela do navegador em várias partes independentes.
+XHTML 1.0 Strict: Exige o uso de elementos semânticos corretos e proíbe o uso de elementos obsoletos.
+XHTML 1.0 Transitional: Projetado para facilitar a transição de documentos HTML legados para XHTML.
+XHTML 1.1: Define um conjunto mais restrito de regras do que o Transitional, focando na semântica e na separação de conteúdo e apresentação.
+XHTML Mobile 1.0: Oferece suporte a recursos específicos para ambientes móveis, como telas pequenas e navegadores limitados.
+HTML 5: Não é necessária a especificação do doctype. Utiliza novas "tags" e criou o valor "semântico" para as páginas webs.
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Definir a estrutura de uma página web com HTML5.
+Aplicar formatação de texto em uma página web com HTML5.
+Desenvolver listas e tabelas em uma página web com HTML5.
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<h2>Classificação das Cores</h2>
+
+	<h3>Primarias</h3>
+	<ul>
+		<li>Vermelho</li>
+		<li>Azul</li>
+		<li>Amarelo</li>
+	</ul>
+
+	<h3>Secundarias</h3>
+	<ul>
+		<li>Verde</li>
+		<li>Laranja</li>
+		<li>Roxo</li>
+	</ul>
+
+	<h3>Terciarias</h3>
+	<ul>
+		<li>Laranja</li>
+		<li>Oliva</li>
+		<li>Turquesa</li>
+		<li>Celeste</li>
+		<li>Violeta</li>
+		<li>Rosa</li>
+	</ul>
+</body>
+
+</html>
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+1 parte sem 5
+
+ensinou como é a estrutura basica de um html, doctype, seus tipos, tags mais importantes.
+
+2 parte sem 5
+
+Fazer uma lista nao ordenada em html. Muito focado em listas html, me colocaram pra fazer uma lista simples e me apresentaram <section> e ancorars dentro da mesma pagina web
+
+3 parte sem 5
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Relatar o histórico do HTML.
+
+Analisar os fatores que motivaram o surgimento do HTML.
+
+Explicar a necessidade de linguagem de marcação.
+
+Me conta de maneira bem simplificada e resumida a historia do html. Feita por Tim Berners-Lee e padronizada por w3c que removeu as tags proprietarias do navegador e aprimorou o html desde entao.
+
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Me aprofundou nos conhecimentos de HTML, e me iniciou em css. Ensinou a importancia da SEMANTICA em uma pagina web
+- Alem de aprofundar no css me ensinou que css tambem podem ser funcionais, nao utilizados apenas para estilos
+- Ensinou que o css tambem pode aumentar a produtividade
+
+
+
+
+
+
+Semana 6
+
+parte 1 sem 6
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Demonstrar a utilização de tags HTML para a estruturação do conteúdo.
+Aplicar o CSS para controlar a formatação e o posicionamento de elementos HTML.
+Elaborar páginas e aplicativos para a Internet utilizando HTML e CSS.
+
+
+Me colocou maiores desafios de html e me ensinou o basico de css, servindo de introdução. E me ensinou a importancia e aplicações da SEMANTICA
+
+         HTML:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete - Empresa XYZ</title>
+    <link rel="stylesheet" href="R:\0_ESTUDOS\Faculdade\Plataforma\HTML\SEMANA5\XYZ.css">
+</head>
+<body>
+    <header>
+        <h1>Enquete sobre Dados Pessoais</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Preencha a Enquete</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="data">Data de Nascimento:</label>
+            <input type="text" id="data" name="data" required><br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="endereco" id="endereco" name="endereco" required><br>
+
+            <label for="nro">Nro:</label>
+            <input type="nro" id="nro" name="nro" required><br>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="rj">RJ</option>
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+            </select><br>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select><br>
+
+            <label for="interesse">Bens pessoais:</label><br>
+            <input type="checkbox" id="casa" name="casa" value="casas">
+            <label for="casa">Casa</label><br>
+            <input type="checkbox" id="carro" name="carro" value="carros">
+            <label for="carro">Carro</label><br>
+            <input type="checkbox" id="moto" name="moto" value="motos">
+            <label for="moto">Moto</label><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </section>
+
+</body>
+</html>
+
+
+CSS:
+body{ 
+	background-color: silver;
+	color: black;
+}
+*{
+	font-family: verdana
+}
+h1{ 
+	color:purple; 
+	text-align:center;
+}
+fieldset {
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 2px 2px 2px gray;
+}
+input, select, textarea{
+	border-radius: 4px;
+	padding: 5px;
+	margin: 5px;
+}
+label{
+	font-weight: bold;
+}
+
+        
+
+parte 2:
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Aplicar formatação em elementos de uma página web com CSS3.
+Desenvolver classes e seletores de Id com CSS3.
+Usar Media Query para diferentes dispositivos.
+
+
+Me mostra que o css nao é utilizado apenas para personalização de paginas, mas tambem na funcionalidade delas
+
+
+Parte 3:
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Identificar os estilos CSS.
+Definir estilos CSS, aplicando-os nas páginas HTML.
+Reconhecer como ocorre a estilização de páginas web com CSS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEMANA 7
+
+PARTE 1
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Conceituar CSS.
+Descrever o funcionamento e as vantagens do CSS.
+Implementar leiautes em HTML com CSS.
+
+Me apresentou a importancia e praticidades reais de ter arquivos css ao inves de estilos imbutidos nas paginas HTML
+
+
+PARTE 2
+
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Reconhecer o que são formulários de uma página web.
+Desenvolver formulários em uma página web.
+Aplicar validações em formulários de uma página web.
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de Notas</title>
+    <style>
+        .aluno {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nome-aluno {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .notas {
+            display: flex;
+            flex-direction: row;
+        }
+        .notas label {
+            margin-right: 5px;
+        }
+        .notas input {
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lançamento de Notas</h2>
+    <form action="#" method="post">
+        <label for="disciplina">Disciplina:</label>
+        <select id="disciplina" name="disciplina" required>
+            <option value="">Selecione...</option>
+            <option value="Introdução à informática">Introdução à informática</option>
+            <option value="Linguagens de Programação">Linguagens de Programação</option>
+            <option value="Programação de Computadores">Programação de Computadores</option>
+        </select><br><br>
+
+    <form action="#" method="post">
+        <div class="aluno">
+            <div class="nome-aluno">Joana da silva:</div>
+            <div class="notas">
+                <label for="prova1_1">Prova 1:</label>
+                <input type="number" id="prova1_1" name="prova1_1" min="0" max="10" required>
+                <label for="prova2_1">Prova 2:</label>
+                <input type="number" id="prova2_1" name="prova2_1" min="0" max="10" required>
+                <label for="exame_1">Exame:</label>
+                <input type="number" id="exame_1" name="exame_1" min="0" max="10">
+                <label for="faltas_1">Faltas:</label>
+                <input type="number" id="faltas_1" name="faltas_1" min="0" max="16" required>
+            </div>
+        </div>
+        <div class="aluno">
+            <div class="nome-aluno">Maria do Socorro:</div>
+            <div class="notas">
+                <label for="prova1_2">Prova 1:</label>
+                <input type="number" id="prova1_2" name="prova1_2" min="0" max="10" required>
+                <label for="prova2_2">Prova 2:</label>
+                <input type="number" id="prova2_2" name="prova2_2" min="0" max="10" required>
+                <label for="exame_2">Exame:</label>
+                <input type="number" id="exame_2" name="exame_2" min="0" max="10">
+                <label for="faltas_2">Faltas:</label>
+                <input type="number" id="faltas_2" name="faltas_2" min="0" max="16" required>
+            </div>
+        </div>
+        <div class="aluno">
+            <div class="nome-aluno">Pedro Santos:</div>
+            <div class="notas">
+                <label for="prova1_3">Prova 1:</label>
+                <input type="number" id="prova1_3" name="prova1_3" min="0" max="10" required>
+                <label for="prova2_3">Prova 2:</label>
+                <input type="number" id="prova2_3" name="prova2_3" min="0" max="10" required>
+                <label for="exame_3">Exame:</label>
+                <input type="number" id="exame_3" name="exame_3" min="0" max="10">
+                <label for="faltas_3">Faltas:</label>
+                <input type="number" id="faltas_3" name="faltas_3" min="0" max="16" required>
+            </div>
+        </div>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
+
+
+
+PARTE 3
+
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Elaborar páginas HTML com links e âncoras.
+Desenvolver páginas HTML com formulários.
+Identificar os diferentes componentes de um formulário.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEMANA 8
+
+
+
+
+
+
+
+
+
+
+PARTE 1
+
+Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados:
+Identificar os principais tipos de requisitos de sistema de software;
+Diferenciar as principais técnicas utilizadas para levantamento de informações;
+Comparar as principais técnicas utilizadas para levantamento de informações.
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEMANA 5
+
+Durante a semana 5 da segunda competência, me ensinaram parte da história do HTML, que foi criado por Tim Berners-Lee. Mais tarde, surgiram as TAGs proprietárias para o navegador Netscape. A padronização do HTML veio com a W3C, que lançou uma versão oficial retirando as tags proprietárias. Posteriormente, o CSS foi consolidado como uma linguagem de estilo para páginas HTML.
+Um dos pontos fundamentais que absorvi foi o uso e a importância do doctype em relação à compatibilidade. Ele é crucial para que o navegador interprete a página de forma correta, e entre as versões mais relevantes estão: HTML 4.01 Strict, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.1, XHTML Mobile 1.0 e HTML5.
+Como parte do aprendizado prático, fui desafiado a criar uma tabela de cores. Essa atividade proporcionou uma excelente oportunidade para aplicar os conhecimentos em situações semelhantes às reais, consolidando ainda mais o entendimento dos conceitos abordados.
+
+
+SEMANA 6
+
+Durante a semana 6 me aprofundei na estruturação do conteúdo utilizando tags HTML, aprendendo a definir a organização básica de uma página web. Além disso, comecei a aplicar o CSS para controlar a formatação e o posicionamento dos elementos HTML, percebendo a importância da estilização para a apresentação visual do conteúdo. Na Unidade de Aprendizagem seguinte, aprofundei meus conhecimentos em CSS3, aprendendo a aplicar formatações mais avançadas e desenvolver classes e seletores de ID. Também me apresentaram  o uso de Media Query para criar layouts responsivos, adaptáveis. Ao final meu entendimento de css e html foi consolidado. Em um desafio prático, eu pude aplicar os conhecimentos me passados onde destacou a importância da habilidade e familiaridade com HTML e css.
+
+
+SEMANA 7
+ 
+Na semana 7, me foi passada a importância prática de separar a estilização de uma página web em arquivos CSS externos, ao invés de incluir estilos diretamente no código HTML. Com isso, compreendi como essa prática facilita a manutenção e o desenvolvimento de projetos web. Além disso, meus conhecimentos sobre formulários foram aprofundados, aprendendo sobre os diversos tipos de entradas de dados que podem ser utilizados em páginas HTML.
+Durante um dos desafios da semana, desenvolvi uma ferramenta que permite aos professores inserir as notas dos alunos de forma eficiente. Esse desafio me permitiu aplicar os conceitos aprendidos, como a estruturação de formulários e a validação dos dados inseridos. 
+Ao final desta unidade de aprendizagem, fiquei apto a conceituar CSS, compreender suas vantagens. Além disso, adquiri habilidades para reconhecer e desenvolver formulários em páginas web, aplicando também técnicas de validação para garantir que os dados inseridos sejam os desejados.
+
+
+SEMANA 8
+
+Na semana 8, me foi ensinado a análise de requisitos de software, mostrando os diferentes tipos de requisitos e as técnicas para levantamento de informações. Aprendi a identificar e diferenciar os principais tipos de requisitos de sistema, bem como a comparar e aplicar técnicas de levantamento de informações.
+Em seguida o  gerenciamento e elicitação de requisitos de software, aprendendo a planejar e aplicar técnicas para coletar os requisitos de projetos. Essas habilidades podem garantir um entendimento claro das necessidades do projeto sendo de grande importância no mundo profissional.
+Por último me foi apresentado o conceito de requisitos funcionais e não funcionais de software, entendendo a importância e diferenciá-los.
+

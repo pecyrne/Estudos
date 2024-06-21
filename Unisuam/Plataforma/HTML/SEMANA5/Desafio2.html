@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de Notas</title>
+    <style>
+        .aluno {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .nome-aluno {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .notas {
+            display: flex;
+            flex-direction: row;
+        }
+        .notas label {
+            margin-right: 5px;
+        }
+        .notas input {
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lançamento de Notas</h2>
+    <form action="#" method="post">
+        <label for="disciplina">Disciplina:</label>
+        <select id="disciplina" name="disciplina" required>
+            <option value="">Selecione...</option>
+            <option value="Introdução à informática">Introdução à informática</option>
+            <option value="Linguagens de Programação">Linguagens de Programação</option>
+            <option value="Programação de Computadores">Programação de Computadores</option>
+        </select><br><br>
+
+    <form action="#" method="post">
+        <div class="aluno">
+            <div class="nome-aluno">Joana da silva:</div>
+            <div class="notas">
+                <label for="prova1_1">Prova 1:</label>
+                <input type="number" id="prova1_1" name="prova1_1" min="0" max="10" required>
+                <label for="prova2_1">Prova 2:</label>
+                <input type="number" id="prova2_1" name="prova2_1" min="0" max="10" required>
+                <label for="exame_1">Exame:</label>
+                <input type="number" id="exame_1" name="exame_1" min="0" max="10">
+                <label for="faltas_1">Faltas:</label>
+                <input type="number" id="faltas_1" name="faltas_1" min="0" max="16" required>
+            </div>
+        </div>
+        <div class="aluno">
+            <div class="nome-aluno">Maria do Socorro:</div>
+            <div class="notas">
+                <label for="prova1_2">Prova 1:</label>
+                <input type="number" id="prova1_2" name="prova1_2" min="0" max="10" required>
+                <label for="prova2_2">Prova 2:</label>
+                <input type="number" id="prova2_2" name="prova2_2" min="0" max="10" required>
+                <label for="exame_2">Exame:</label>
+                <input type="number" id="exame_2" name="exame_2" min="0" max="10">
+                <label for="faltas_2">Faltas:</label>
+                <input type="number" id="faltas_2" name="faltas_2" min="0" max="16" required>
+            </div>
+        </div>
+        <div class="aluno">
+            <div class="nome-aluno">Pedro Santos:</div>
+            <div class="notas">
+                <label for="prova1_3">Prova 1:</label>
+                <input type="number" id="prova1_3" name="prova1_3" min="0" max="10" required>
+                <label for="prova2_3">Prova 2:</label>
+                <input type="number" id="prova2_3" name="prova2_3" min="0" max="10" required>
+                <label for="exame_3">Exame:</label>
+                <input type="number" id="exame_3" name="exame_3" min="0" max="10">
+                <label for="faltas_3">Faltas:</label>
+                <input type="number" id="faltas_3" name="faltas_3" min="0" max="16" required>
+            </div>
+        </div>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
