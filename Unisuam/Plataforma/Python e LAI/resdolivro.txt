@@ -1,0 +1,33 @@
+Meu resumo Introdução à lógica 
+de programação e ao 
+ambiente Python
+
+1º passo Enunciar o Problema. Dizer de maneira objetiva qual o problema deve ser resolvido.
+
+2º passo Descrever todas as etapas e necessidades para a solução do problema, como o meu exemplo que veio em mente: Para uma calculadora funcionar eu necessito que, ela consiga fazer todas as operações (considerando que pe uma calculadora que tudo funcione) e mostrar o resultados corretamente para o usuario, seja eficiente para que possa funcionar em quaisquer dispositivos.
+
+3º passo Ordenação logica do passo a passo para que o problema seja resovido
+
+Metodo indutivo: Chega se a uma conclusao geral baseada em um pequeno numero de dados, podendo resultar em conclusoes incorretas
+
+Meotodo dedutivo: Utiliza maior numero de premissas mas é considerado o mais valido, utiliza um grande numero de informações validadas para chegar em uma conclusao valida
+
+Operadores:
+
+Implicação: A -> B
+basicamente toda ação tem uma reação, mas nao necessariamente, para ter aquela reação é necessaria a aquela ação. Exemplo da chuva
+se CHOVE, AS CALÇADAS FICAM MOLHADAS
+
+Se chover, com certeza as calçadas vao ficar molhadas
+Mas se as calçadas estiverem molhadas, nao significa que choveu
+
+OU: A + B
+meio obvio
+
+E: A.B
+Tao obvio quanto o outro.
+
+Negação: ~A ~B
+Inverte o estado logico
+
+
